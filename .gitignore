@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments / local shell helpers
+.venv/
+venv/
+env/
+.envrc
+
+# Conda / mamba local metadata
+.conda/
+conda-meta/
+
+# OMX / local agent state
+.omx/
+
+# Generated outputs
+/data/*.xlsx
+/data/test_mode/
+!/data/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
